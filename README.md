@@ -1,65 +1,129 @@
-# Tony Bruce: Portfolio
+# Tony Bruce | Personal Portfolio
 
-A personal portfolio built with plain HTML5, CSS3 and vanilla JavaScript. No build step, no dependencies.
+**Aspiring Software Developer · B.Tech Information Technology · Generative AI Enthusiast**
 
-## Project structure
+A personal portfolio showcasing my development projects, technical skills, education, and experience.
 
-```
-index.html      Page markup (all sections)
-style.css       Styles, theme tokens, responsive rules
-script.js       Theme toggle, mobile menu, active nav link, scroll reveal
-assets/
-  profile.jpg   Your portrait (you supply this)
-  resume.pdf    Your résumé (you supply this)
-  README.md     Notes on the two files above
-```
+[View Portfolio](#) · [GitHub Profile](https://github.com/TonyBruce07) · [Contact Me](mailto:tonybruce776@gmail.com)
 
-## Before you publish: add your two files
+---
 
-1. Copy your photograph to `assets/profile.jpg`. A portrait-orientation photo (about 4:5, for example 800 x 1000 px) works best. It is cropped with `object-fit: cover`; if your face sits too high or low, change `object-position` in the `.portrait-frame img` rule in `style.css`.
-2. Copy your résumé PDF to `assets/resume.pdf`.
+## About Me
 
-Until those files exist, the hero shows a "TB" placeholder and the résumé links will not open a file.
+Hi, I'm **Tony Bruce**, a B.Tech Information Technology student at Uka Tarsadia University, Gujarat, with a strong interest in software development, Generative AI, and emerging technologies.
 
-## Things to confirm or add
+I enjoy building practical applications, exploring new technologies, and turning ideas into useful software. Through academic projects and technical learning initiatives, I continue to strengthen my programming, problem-solving, and development skills.
 
-- **SGPA:** your résumé lists 9.7, but it is intentionally not shown. If it is current, uncomment the SGPA row in the About section of `index.html`.
-- **LinkedIn:** no URL was supplied, so none is shown. Add your real profile link where the comment in the Contact section indicates (and in the footer if you like).
-- **Certifications:** the Experience section says "None listed yet". Replace that line with real entries when you have them.
-- **Live demos:** none of the four projects has a hosted demo, so each card has a case study instead. If you deploy one, add a "Live demo" link next to "Source code" in that card.
-- **Project case studies:** these are written from your project descriptions. Check each against its repository and edit anything that is not accurate.
+This portfolio brings together my work, technical capabilities, education, and professional experience in one place.
 
-## Test locally
+## Featured Projects
 
-Open `index.html` directly in a browser, or serve the folder:
+### 1. College Event Management System
 
-```
-python3 -m http.server 8000
-```
+A web application designed to help students explore college events, create accounts, log in, and register for events online.
 
-Then visit http://localhost:8000. Check the following:
+**Technologies:** HTML5 · CSS3 · JavaScript
 
-- Theme toggle switches and the choice survives a reload.
-- At widths below 900 px the menu button opens and closes the navigation (also with Escape).
-- Every navigation link scrolls to its section.
-- Tab through the page: every control shows a visible focus ring.
-- No horizontal scrolling at 360 px width.
+[View Source Code](https://github.com/TonyBruce07/Event-Managing-System)
 
-## Deploy to GitHub Pages
+### 2. Digital Logic & Number System Converter
 
-1. Create a repository on GitHub (for example `portfolio`) and push these files so that `index.html` is at the repository root.
+A Python application for number-system conversions, digital logic gate operations, and complement calculations related to digital electronics.
 
+**Technologies:** Python 3
+
+[View Source Code](https://github.com/TonyBruce07/Digital-logic-and-Number-System)
+
+### 3. Medicine Vault
+
+A web-based medicine inventory management application for tracking household medicines, monitoring expiry dates and low-stock levels, and maintaining medicine disposal records.
+
+**Technologies:** HTML · CSS · JavaScript · Bootstrap · PHP · MySQL/MariaDB
+
+[View Source Code](https://github.com/TonyBruce07/medicine-vault)
+
+### 4. School Management System
+
+A web-based school management application designed around student, teacher, administrator, and principal portals, with features for attendance, examinations, timetables, fees, notices, and events.
+
+**Technologies:** PHP · MySQL · HTML5 · CSS3 · JavaScript · Bootstrap 5
+
+[View Source Code](https://github.com/TonyBruce07/school-management-system)
+
+## Technical Skills
+
+| Category | Technologies |
+|---|---|
+| Programming Languages | C, Python, Java, JavaScript |
+| Web Technologies | HTML5, CSS3 |
+| Libraries | NumPy, Pandas |
+| Tools & Platforms | Git, GitHub, VS Code, Linux, IntelliJ IDEA |
+
+## Education
+
+**Bachelor of Technology (B.Tech) in Information Technology**
+
+Uka Tarsadia University, Gujarat, India.
+
+## Experience
+
+**GeeksforGeeks Campus Mantri**
+
+Contributed to technical learning initiatives, student engagement, and digital outreach.
+
+- Promoted technical learning programs and workshops.
+- Created digital content and supported outreach campaigns.
+- Developed communication and technical learning skills through community engagement.
+
+## Certifications & Professional Development
+
+- GenAI Powered Data Analytics Job Simulation — TCS via Forage
+- Getting Started with Linux Fundamentals (RH104–RHA), Version 9.1 — Red Hat
+- Intro to SQL — Kaggle
+- Basics of Java Programming — CodeHelp
+
+## Website Features
+
+- Responsive layout for desktop, tablet, and mobile devices.
+- Industrial-modern visual design with charcoal, off-white, gray, and orange-red accents.
+- Light and dark theme toggle.
+- Interactive navigation and subtle animations.
+- Project showcase with source-code links and project details.
+- Personal résumé download.
+- Contact and social links.
+
+## Built With
+
+- **HTML5** — website structure
+- **CSS3** — styling, responsive layouts, and animations
+- **JavaScript** — theme switching, navigation interactions, and dynamic behavior
+- **Git & GitHub** — version control and source-code hosting
+- **GitHub Pages** — website deployment
+
+## Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/TonyBruce07/TonyBruce_PortfolioWebsite.git
    ```
-   git init
-   git add .
-   git commit -m "Add portfolio site"
-   git branch -M main
-   git remote add origin https://github.com/TonyBruce07/portfolio.git
-   git push -u origin main
+
+2. Open the project folder:
+
+   ```bash
+   cd TonyBruce_PortfolioWebsite
    ```
 
-2. On GitHub, open **Settings > Pages**.
-3. Under **Build and deployment**, set **Source** to **Deploy from a branch**, choose the `main` branch and the `/ (root)` folder, then save.
-4. After a minute or two the site is live at `https://tonybruce07.github.io/portfolio/`.
+3. Open `index.html` in your browser, or use the Live Server extension in Visual Studio Code.
 
-All local paths in the site are relative (`style.css`, `assets/profile.jpg`), so it works under a project URL like the one above. Name the repository `TonyBruce07.github.io` instead if you want the site at `https://tonybruce07.github.io/`.
+No build process is required for the plain HTML, CSS, and JavaScript website.
+
+## Connect With Me
+
+- **GitHub:** [TonyBruce07](https://github.com/TonyBruce07)
+- **Email:** [tonybruce776@gmail.com](mailto:tonybruce776@gmail.com)
+- **LinkedIn:** https://www.linkedin.com/in/tony-bruce-b60209371?utm_source=share_via&utm_content=profile&utm_medium=member_android
+
+---
+
+*Designed and developed by Tony Bruce.*
